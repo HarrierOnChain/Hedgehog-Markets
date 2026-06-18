@@ -7,7 +7,7 @@
 
 > Automated **Hedgehog Markets trading bot** — Solana / social. Part of the [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) suite: one execution core, one risk layer, every venue.
 
-**Hedgehog Markets** is on the **adapter-driven roadmap** — the engine is built; the Hedgehog Markets adapter is in the queue. Trade it and want it prioritized? [Reach out](https://t.me/HarrierOnChain) and it moves up.
+**Hedgehog Markets** is **live in production today.**
 
 ---
 
@@ -21,6 +21,20 @@ These bots run on Hedgehog Markets through a single venue adapter on the shared 
 | 🎯 **Direction Hunting** — define the edge once, the engine grinds 24/7 (auto TP + SL) |
 
 > Want a strategy not listed here on Hedgehog Markets? Adapter coverage is demand-driven — [ask](https://t.me/HarrierOnChain).
+
+---
+
+## Quickstart
+
+Clone, drop in your keys, and run — the TUI lets you pick a strategy.
+
+```bash
+git clone https://github.com/HarrierOnChain/Hedgehog-Markets.git
+cd Hedgehog-Markets
+cp config.example.yaml config.yaml   # add your keys
+cargo run --release                  # launch the TUI
+# headless: cargo run --release -- run copy-trading
+```
 
 ---
 
