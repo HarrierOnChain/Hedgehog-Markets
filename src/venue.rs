@@ -12,5 +12,5 @@ pub const VENUE_TYPE: &str = "Solana / social";
 /// Strategies this venue runs on the shared engine.
 pub const STRATEGIES: &[&str] = &[
     "Copy Trading",
-    "Direction Hunting",
+    "Directional Arbitrage",
 ];

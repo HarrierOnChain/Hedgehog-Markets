@@ -19,7 +19,7 @@ These bots run on Hedgehog Markets through a single venue adapter on the shared 
 | Strategy |
 |----------|
 | 🎯 **Copy Trading** — mirror wallets that already proved they have alpha |
-| 🎯 **Direction Hunting** — define the edge once, the engine grinds 24/7 (auto TP + SL) |
+| 🎯 **Directional Arbitrage** — arb base (Up + Down < $1), tilted toward the side with more edge |
 
 > Want a strategy not listed here on Hedgehog Markets? Adapter coverage is demand-driven — [ask](https://t.me/HarrierOnChain).
 
